@@ -1,0 +1,38 @@
+# ---------------------------------------------------
+# Unreal Engine 5 - .gitignore
+# ---------------------------------------------------
+
+# Compiled/generated build output
+Binaries/
+Build/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# Per-plugin build output (in case plugins are added later)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Visual Studio / Rider
+.vs/
+.vsconfig
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.opendb
+
+# UnrealHeaderTool generated files (regenerated on build, only relevant if C++ is added)
+*.generated.h
+*.generated.cpp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Crash reports
+*.dmp
+*.mdmp
